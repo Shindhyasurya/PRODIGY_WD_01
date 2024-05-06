@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .collapsible {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      margin-bottom: 13px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .active,
+    .collapsible:hover {
+      background-color: #555;
+    }
+
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: #f1f1f1;
+      margin-bottom: 13px;
+      margin-top: -12px;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    }
+
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      font-size: 24px;
+      font-family: "centuryy schoolbook";
+      background-color: #474e5d;
+      color: white;
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+    <div>
+        <a href="Swtshp.html"> <img src="Wrong.png" style="height: 60px; width: 60px;margin-left: 5px; margin-top: 5px;">
+        </a>
+      </div>
+
+  <div class="about-section">
+    <h1>About Us</h1>
+    <p>Push open the door of Restaurant de Sucre et de Soie, and let the aroma of caramelized sugar and melted chocolate
+      wash over you. Here, in this haven of sugary delights, we believe that life's sweetest
+      moments deserve a sweet accompaniment. Our story began with a passion for transforming simple ingredients into
+      delectable creations. We meticulously source only the finest local fruits,
+      rich nuts, and decadent chocolates, ensuring every bite is an explosion of flavor and quality.
+
+      <br>Our shelves overflow with a symphony of sweet sensations. Nostalgic favorites like handcrafted lollipops and
+      playful gummies evoke childhood memories, while our artisanal chocolates
+      boast unique flavor combinations that will tantalize your taste buds. We also cater to the adventurous with
+      innovative confections, pushing the boundaries of sweetness with unexpected
+      twists and turns. Whether you crave a classic caramel apple or a whimsical creation infused with exotic fruits and
+      floral notes, we have something to ignite your sweet tooth.
+
+      <br>But Restaurant de Sucre et de Soie is more than just a shop – it's a destination for creating memories. We
+      take pride in crafting personalized treats for special occasions, from birthday party favors to
+      decadent wedding cake pops. Let us help you curate the perfect gift basket overflowing with sugary delights,
+      guaranteed to put a smile on anyone's face. So, come explore our world of
+      whimsical creations and handcrafted happiness. We invite you to indulge, celebrate, and share the joy that only a
+      truly delightful sweet treat can bring.
+    </p>
+  </div>
+
+  <h2 style="text-align:center">Meet our Team...!!!</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="Female.jpg" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>Aadhiya</h2>
+          <p class="title">CEO & Founder</p>
+          <p>I'm the responsible for to Conceptualizes, builds, and leads the vision for the shop's success.</p>
+          <button type="button" class="collapsible">Contact</button>
+          <div class="content">
+            <p><i class="fa fa-envelope"></i> &nbsp; aadhiya@gmail.com</p>
+            <p><i class="fa fa-phone"></i> &nbsp; +63 7352698124 </p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="Male 1.jpg" alt="Mike" style="width:100%">
+        <div class="container">
+          <h2>Adhitya</h2>
+          <p class="title">Director</p>
+          <p>My work is to oversees daily operations, finances, and growth strategies to ensure a thriving sweet haven.
+          </p>
+          <button type="button" class="collapsible">Contact</button>
+          <div class="content">
+            <p><i class="fa fa-envelope"></i> &nbsp; adhitya@gmail.com</p>
+            <p><i class="fa fa-phone"></i> &nbsp; +63 5253749573 </p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="Male 2.jpg" alt="John" style="width:100%">
+        <div class="container">
+          <h2>Niklaus Mikelson</h2>
+          <p class="title">Managing Director</p>
+          <p>My work is to wields the spatula of leadership, overseeing all aspects for sugary success.</p>
+          <button type="button" class="collapsible">Contact</button>
+          <div class="content">
+            <p><i class="fa fa-envelope"></i> &nbsp; mikelson@gmail.com</p>
+            <p><i class="fa fa-phone"></i> &nbsp; +63 5239584632 </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="Baker.jpg" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>Katherine Petrova</h2>
+          <p class="title">Cheif Baker</p>
+          <p>I'm the only responsible for baking pastries, cakes, cookies, and other sweet treats from scratch or
+            pre-made mixes. I ensure consistent quality, freshness, and presentation.</p>
+            <button type="button" class="collapsible">Contact</button>
+            <div class="content">
+              <p><i class="fa fa-envelope"></i> &nbsp; katherine@gmail.com</p>
+              <p><i class="fa fa-phone"></i> &nbsp; +63 923794517 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="Inventory Specialist.jpg" alt="John"
+          style="width:100%">
+        <div class="container">
+          <h2>Jermey</h2>
+          <p class="title">Cheif Inventory Specialist</p>
+          <p>I'm always maintains the stock levels for ingredients, packaging materials, and finished products. And also
+            I handles ordering, receiving, and storing supplies.</p>
+            <button type="button" class="collapsible">Contact</button>
+            <div class="content">
+              <p><i class="fa fa-envelope"></i> &nbsp; jermey@gmail.com</p>
+              <p><i class="fa fa-phone"></i> &nbsp; +63 3259364529 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+      <img src="Barista.jpg" alt="John" style="width:100%; height: 475px; object-fit: cover; object-position: 25% 25%;">
+        <div class="container">
+          <h2>Elena</h2>
+          <p class="title">Cheif Barista</p>
+          <p>I'm here to prepare coffee drinks, teas, hot chocolate, and other beverages. Also creates specialty drinks
+            and manage the beverage counter.</p>
+            <button type="button" class="collapsible">Contact</button>
+            <div class="content">
+              <p><i class="fa fa-envelope"></i> &nbsp; elena@gmail.com</p>
+              <p><i class="fa fa-phone"></i> &nbsp; +63 9836492376 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Dessert Decor.jpeg" alt="John" style="width: 100%; height: 530px; object-fit: cover; object-position: 25% 25%;">
+      <div class="container">
+        <h2>Blake</h2>
+        <p class="title">Cheif Decorator</p>
+        <p>I'm Specialized in creating beautiful and artistic decorations for cakes, cupcakes, and other desserts. The
+          techniques I'm usinge like piping, fondant work, airbrushing, and applying various toppings.</p>
+          <button type="button" class="collapsible">Contact</button>
+          <div class="content">
+            <p><i class="fa fa-envelope"></i> &nbsp; blake@gmail.com</p>
+            <p><i class="fa fa-phone"></i> &nbsp; +63 0987654321 </p>
+        </div>
+        </div>
+        </div>
+  </div>
+  </div>
+
+</body>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
+
+</html>
